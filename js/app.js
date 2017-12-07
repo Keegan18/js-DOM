@@ -3,7 +3,9 @@
 /*1. Taylor Swift
 
 Find the element with the id of "name1":
-	- Replace the content with the following string "Tay-Tay"*/
+	- Replace the content with the following string "Tay-Tay"
+*/
+document.getElementById("name1").innerHTML = "Tay-Tay";
 
 /*2. DJ Khaled
 
@@ -11,7 +13,8 @@ Find the element with the id of "position2":
 	- Replace the content with the following string "Project Manager"
 	- Change the background color to red
 */
-
+document.getElementById("position2").innerHTML = "Project Manager";
+document.getElementById("position2").style.background = "red";
 
 /*3. Piko Taro
 
@@ -19,6 +22,8 @@ Find the element with the id of "alias3":
 	- Replace the content with the following string "Concatenation"
 	- Change the font size to 40
 */
+document.getElementById("alias3").innerHTML = "Concatenation";
+document.getElementById("alias3").style.fontSize = "40px";
 
 /*4. Prince
 
@@ -26,13 +31,15 @@ Find the element with the class name of "profile":
 	- Replace the content with a verse from your favorite Prince song
 	- Change the styles of the font-family to Sans Serif
 */
+document.getElementsById("profile").innerHTML = "She wore a Raspberry beret The kind you find in a second hand store Raspberry beret And if it was warm she wouldn't wear much more Raspberry beret I think I love her";
+document.getElementsById("profile").style.font-family = "Sans Serif";
 
 /*5. Bruce Lee
 
 Find the element with the class name of "profile":
 	- Replace the content with a quote from the legend himself
 */
-
+document.getElementsById("profile").innerHTML = '"You must be shapeless, formless, like water. When you pour water in a cup, it becomes the cup. When you pour water in a bottle, it becomes the bottle. When you pour water in a teapot, it becomes the teapot. Water can drip and it can crash. Become like water my friend"';
 
 
 /*6. Samuel L Jackson
